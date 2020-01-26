@@ -6,7 +6,7 @@ const HomeText = () => {
       <div className="mainColorBox"></div>
       <div className="mainTitle">
         <p>{`{ 'Junior Developer + logical thinker'`}</p>
-        <p className="mainTitleLine2">: ' <span className="mainTitleName">KAILEY LEE</span> ' }</p>
+        <p className="mainTitleLine2">: ' <span className="mainTitleName">&nbsp;KAILEY LEE&nbsp;</span> ' }</p>
       </div>
     </div>
   )

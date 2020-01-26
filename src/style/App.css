@@ -13,24 +13,29 @@
   /* font-family: 'Be Vietnam', sans-serif; */
   /* font-family: 'Bungee Shade', cursive; */
 
-
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap');
 
+/* Colors */
+/* 
+  wine: #660033
+  orange: #FF8B06
+  mint: #17e9e0
+ */
+
 body {
-  /* background-color: #FF8B06; */
   font-family: 'Cabin', sans-serif;
 }
-
 
 /* NAVBAR */
 #navbar {
   height: 5vh;
   padding-top: 0.5vh;
+  position: fixed;
 }
 
 .navOption {
   color: #660033 !important;
+  font-weight: 600;
   font-size: 1.5vw;
-  font-weight: 500;
   padding: 0 1vw 0 1vw;
 }
