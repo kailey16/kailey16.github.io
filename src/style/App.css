@@ -17,8 +17,15 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap');
 
 body {
-  background-color: #FF8B06;
+  /* background-color: #FF8B06; */
   font-family: 'Cabin', sans-serif;
+}
+
+
+/* NAVBAR */
+#navbar {
+  height: 5vh;
+  padding-top: 0.5vh;
 }
 
 .navOption {
