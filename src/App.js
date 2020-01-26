@@ -1,14 +1,15 @@
 import React from 'react';
 import './style/App.css';
 import { Route } from 'react-router-dom';
+import Home from './Home/Home'
+import Navbar from './Navbar'
 
 function App() {
   return (
-    <div className="App">
-      {/* <Navbar /> */}
+    <div id="app">
+      <Navbar />
       {/* <Route exact path='/marsrover' component={MarsRover} /> */}
-      <Route></Route>
-
+      <Route exact path='/' component={Home} />
     </div>
   );
 }
