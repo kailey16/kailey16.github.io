@@ -12,13 +12,13 @@ const HomeText = () => {
 
       <div className="mainIcons">
         <a href="/aboutme">
-          <i class="fas fa-info-circle" />
+          <i class="fas fa-info-circle mainIcon" />
         </a>
         <a target="_blank" href="https://github.com/kailey16">
-          <i class="fab fa-github" />
+          <i class="fab fa-github mainIcon" />
         </a>
         <a target="blank" href="https://www.linkedin.com/in/kaileyleemcintosh/">
-          <i class="fab fa-linkedin" />
+          <i class="fab fa-linkedin mainIcon" />
         </a>
       </div>
 

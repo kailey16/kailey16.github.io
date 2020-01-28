@@ -31,3 +31,7 @@
   color: #17e9e0 !important;
   font-size: 3.1vw;
 }
+
+.mainIcon:hover, .mainIcon:active {
+  font-size: 3.5vw;
+}
