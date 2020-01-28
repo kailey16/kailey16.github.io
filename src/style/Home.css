@@ -5,12 +5,12 @@
   z-index: -1;
 }
 
-.mainTitle {
+#homeText {
+  padding: 38vh 0 0 3vw;
+  z-index: 1;
+  font-weight: 700;
   color: #660033;
   font-size: 3.5vw;
-  font-weight: 700;
-  z-index: 1;
-  padding: 40vh 0 0 3vw;
 }
 
 .mainTitleLine2 {
@@ -20,4 +20,14 @@
 .mainTitleName {
   color: #FF8B06;
   background-color: #17e9e0;
+}
+
+.mainIcons {
+  padding-left: 5vw;
+}
+
+.mainIcons a {
+  padding-right: 2vw;
+  color: #17e9e0 !important;
+  font-size: 3.1vw;
 }
