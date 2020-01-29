@@ -20,7 +20,9 @@ const AboutMe = () => {
           <span className="colorYellow bioStatus">Background?</span>&nbsp; : &nbsp;Her educational background is in Chemical Engineering and Business(MBA). She has experience working in Retail Operation Management focusing on client satisfaction and business partner relations coupled with event planning and management. She truly loves problem solving and developing logical thought process, so she decided to change her career to software engineering ,
         </p>
         <p className="bioLine bioDetail">
-          <span className="colorYellow bioStatus">Technical Skills</span>&nbsp; : &nbsp;[ &nbsp;&nbsp;Ruby on Rails, Javascript, React.js, Redux.js, HTML5, CSS/Bootstrap/Semantic UI, SQL/SQLite3/PostgreSQL, RESTful architecture, MVC pattern, RSpec, Git, APIs&nbsp; ]<br/>
+          <span className="colorYellow bioStatus">Technical Skills</span>&nbsp; : &nbsp;[ &nbsp;&nbsp;<span className="colorYellow">Ruby on Rails</span> , <span className="colorYellow">Javascript</span> , <span className="colorYellow">React.js</span> , <span className="colorYellow">Redux.js</span> ,<br/>
+          <span className="colorYellow skillLine">HTML5</span> , <span className="colorYellow">CSS/Bootstrap/Semantic UI</span> , <span className="colorYellow">SQL/SQLite3/PostgreSQL</span> ,<br/>
+          <span className="colorYellow skillLine">RESTful architecture</span> , <span className="colorYellow">MVC pattern</span> , <span className="colorYellow">RSpec</span> , <span className="colorYellow">Git</span> , <span className="colorYellow">APIs</span>&nbsp; ]<br/>
         </p>
         <p className="bioName">{`}`}</p>
       </div>
