@@ -32,3 +32,17 @@
   font-size: 1.7vw;
   font-weight: 500;
 }
+
+
+
+
+
+.aboutmeIcons a {
+  padding-right: 2vw;
+  color: #17e9e0 !important;
+  font-size: 3.1vw;
+}
+
+.aboutmeIcon:hover, .aboutmeIcon:active {
+  font-size: 3.5vw;
+}
