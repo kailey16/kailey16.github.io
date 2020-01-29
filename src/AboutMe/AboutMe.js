@@ -7,28 +7,34 @@ import '../style/AboutMe.css'
 const AboutMe = () => {
   return (
     <div id="aboutme">
-      <div className="bio">
-        <p className="bioLine bioName">
-          {`{ ' Kailey Lee ' : ' Full Stack Web Developer ' ,`}
-        </p>
 
-        <p className="bioLine bioDetail">
-          {`' Who is she? ' : ' Kailey Lee is a junior software engineer specializing in Ruby on Rails and Javascript along with React and Redux. Her educational background is in Chemical Engineering and Business(MBA). She has experience working in Retail Operation Management focusing on client satisfaction and business partner relations coupled with event planning and management. She wanted to change her career to software engineering because she truly loves problem solving and developing logical thought process.', `}
+      <div className="bio">
+        <p className="bioName">{`{`}</p>
+        <p className="bioLine bioName">
+          <span className="colorYellow">Kailey Lee</span> &nbsp; : &nbsp;Full Stack Web Developer ,
         </p>
         <p className="bioLine bioDetail">
-          {`' Technical Skills ': [ Ruby on Rails, Javascript, React.js, Redux.js, HTML5, CSS/Bootstrap/Semantic UI, SQL/SQLite3/PostgreSQL, RESTful architecture, MVC pattern, RSpec, Git, APIs ]}`}
+          <span className="colorYellow bioStatus">Who is she?</span> &nbsp; : &nbsp;Kailey Lee is a junior software engineer specializing in Ruby on Rails and Javascript accompanying React and Redux ,
         </p>
+        <p className="bioLine bioDetail">
+          <span className="colorYellow bioStatus">Background?</span>&nbsp; : &nbsp;Her educational background is in Chemical Engineering and Business(MBA). She has experience working in Retail Operation Management focusing on client satisfaction and business partner relations coupled with event planning and management. She truly loves problem solving and developing logical thought process, so she decided to change her career to software engineering ,
+        </p>
+        <p className="bioLine bioDetail">
+          <span className="colorYellow bioStatus">Technical Skills</span>&nbsp; : &nbsp;[ &nbsp;&nbsp;Ruby on Rails, Javascript, React.js, Redux.js, HTML5, CSS/Bootstrap/Semantic UI, SQL/SQLite3/PostgreSQL, RESTful architecture, MVC pattern, RSpec, Git, APIs&nbsp; ]<br/>
+        </p>
+        <p className="bioName">{`}`}</p>
       </div>
+
 
       <div className="aboutmeIcons">
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/kailey16">
-          <i class="fab fa-github aboutmeIcon" />
+          <i className="fab fa-github aboutmeIcon" />
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kaileyleemcintosh/">
-          <i class="fab fa-linkedin aboutmeIcon" />
+          <i className="fab fa-linkedin aboutmeIcon" />
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@klee.mcintosh">
-          <i class="fab fa-medium aboutmeIcon"></i>
+          <i className="fab fa-medium aboutmeIcon"></i>
         </a>
       </div>
 

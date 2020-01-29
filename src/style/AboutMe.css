@@ -1,6 +1,6 @@
 #aboutme {
   background-color: #660033;
-  color: #FF8B06;
+  color: rgba(255, 106, 6, 0.938);
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -10,7 +10,7 @@
 .bio {
   width: 70vw;
   height: auto;
-  margin: 15vh 0 0 15vw;
+  margin: 10vh 0 0 8vw;
   font-size: 1.7vw;
   font-weight: 500;
 }
@@ -24,6 +24,10 @@
   font-weight: 700;
 }
 
+.bioLine.bioName {
+  padding-left: 3vw;
+}
+
 .bioStatus {
   font-size: 2vw;
   font-weight: 600;
@@ -32,15 +36,19 @@
 .bioDetail {
   font-size: 1.7vw;
   font-weight: 500;
+  padding: 3vh 0 0 3vw;
 }
 
-.bioLine {
-  padding-top: 3vh;
+.colorYellow {
+  color: rgba(255, 238, 6, 0.877);
 }
 
 
 
 
+.aboutmeIcons {
+  margin-left: 60vw;
+}
 
 .aboutmeIcons a {
   padding-right: 2vw;
