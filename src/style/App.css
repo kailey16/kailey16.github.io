@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Armata|Cabin|Changa|Gloria+Hallelujah|Kanit|Karla|Monda&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree|Be+Vietnam|Bungee+Inline|Bungee+Shade|Finger+Paint|Sulphur+Point&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree|Be+Vietnam|Bungee+Inline|Bungee+Shade|Finger+Paint|Sulphur+Point&display=swap'); 
   /* font-family: 'Karla', sans-serif; */
   /* font-family: 'Kanit', sans-serif; */
   /* font-family: 'Monda', sans-serif; */
@@ -19,6 +19,7 @@
 /* 
   wine: #660033
   orange: #FF8B06
+  rgba(255, 106, 6, 0.938)
   mint: #17e9e0
  */
 
@@ -37,7 +38,7 @@ body {
 }
 
 .navOption {
-  color: #660033 !important;
+  color: #17e9e0 !important;
   font-weight: 600;
   font-size: 1.5vw;
   padding: 0 1vw 0 1vw;

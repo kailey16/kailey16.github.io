@@ -2,7 +2,7 @@
   width: auto;
   height: 100%;
   position: fixed;
-  z-index: -1;
+  z-index: -1; 
 }
 
 #homeText {
@@ -18,7 +18,7 @@
 }
 
 .mainTitleName {
-  color: #FF8B06;
+  color: rgba(255, 106, 6, 0.938);
   background-color: #17e9e0;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .mainIcons a {
-  padding-right: 2vw;
+  padding-right: 3vw;
   color: #17e9e0 !important;
   font-size: 3.1vw;
 }
