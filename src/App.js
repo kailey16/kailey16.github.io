@@ -2,7 +2,6 @@ import React from 'react';
 import './style/App.css';
 import { Route } from 'react-router-dom';
 import Home from './Home/Home'
-import Navbar from './Navbar'
 import AboutMe from './AboutMe/AboutMe'
 import Project from './Project/Project'
 import Blog from './Blog/Blog'
@@ -10,8 +9,6 @@ import Blog from './Blog/Blog'
 function App() {
   return (
     <div id="app">
-      <Navbar />
-      {/* <Route exact path='/marsrover' component={MarsRover} /> */}
       <Route exact path='/' component={Home} />
       <Route exact path='/aboutme' component={AboutMe} />
       <Route exact path='/project' component={Project} />

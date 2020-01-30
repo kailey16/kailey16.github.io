@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/AboutMe.css'
+import Navbar from '../Navbar'
 
 
 // resume https://drive.google.com/file/d/1SbjTS29VEL5foaeoAJDQ4nFTkxRkUs5z/view?usp=sharing
@@ -7,7 +8,7 @@ import '../style/AboutMe.css'
 const AboutMe = () => {
   return (
     <div id="aboutme">
-
+      <Navbar color="#e3e2df"/>
       <div className="bio">
         <p className="bioName">{`{`}</p>
         <p className="bioLine bioName">
