@@ -80,7 +80,9 @@
 
 .aboutmeIcons {
   grid-area: icons;
-  padding: 17vh 0 0 5vw;
+  justify-self: start;
+  padding: 20vh 0 0 4vw;
+  text-align: center;
 }
 
 .aboutmeIcons a {
@@ -90,4 +92,8 @@
 
 .aboutmeIcon:hover, .aboutmeIcon:active {
   font-size: 3.5vw;
+}
+
+.resume {
+  font-size: 1vw;
 }

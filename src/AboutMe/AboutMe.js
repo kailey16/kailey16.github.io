@@ -2,9 +2,6 @@ import React from 'react'
 import '../style/AboutMe.css'
 import Navbar from '../Navbar'
 
-
-// resume https://drive.google.com/file/d/1SbjTS29VEL5foaeoAJDQ4nFTkxRkUs5z/view?usp=sharing
-
 const AboutMe = () => {
   return (
     <div id="aboutme">
@@ -30,6 +27,10 @@ const AboutMe = () => {
 
 
       <div className="aboutmeIcons">
+        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1SbjTS29VEL5foaeoAJDQ4nFTkxRkUs5z/view?usp=sharing">
+            <i class="fas fa-file aboutmeIcon"></i><br/>
+            <p className="resume">Resume</p>
+        </a>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/kailey16">
           <i className="fab fa-github aboutmeIcon" />
         </a><br/>
