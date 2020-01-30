@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from '../Navbar'
+import '../style/Project.css'
 
 const Project = () => {
   return (
-    <div>
-      Project
+    <div id="project">
+      <Navbar color="#660033" />
     </div>
   )
 }

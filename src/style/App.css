@@ -15,12 +15,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap');
 
-/* Colors */
-/* 
+/* Colors
   wine: #660033
   orange: #FF8B06
-  rgb(255, 106, 6)
+          rgb(255, 106, 6)
   mint: #17e9e0
+  beige: #e3e2df
+  baby pink: #e3afbc
+  pink: #ee4c7c
+  dark-pink: #9a1750
  */
 
 body {
@@ -38,7 +41,6 @@ body {
 }
 
 .navOption {
-  /* color: rgb(255, 106, 6); */
   font-weight: 600;
   font-size: 1.5vw;
   padding: 0 1vw 0 1vw;
