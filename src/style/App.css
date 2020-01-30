@@ -19,7 +19,7 @@
 /* 
   wine: #660033
   orange: #FF8B06
-  rgba(255, 106, 6, 0.938)
+  rgb(255, 106, 6)
   mint: #17e9e0
  */
 
@@ -31,14 +31,14 @@ body {
 #navbar {
   height: 5vh;
   padding-top: 0.5vh;
-  width: 50vw;
-  margin-left: 25vw;
+  width: 100vw;
+  /* margin-left: 25vw; */
   text-align: center;
   position: fixed;
 }
 
 .navOption {
-  color: #660033 !important;
+  color: rgb(255, 106, 6) !important;
   font-weight: 600;
   font-size: 1.5vw;
   padding: 0 1vw 0 1vw;
