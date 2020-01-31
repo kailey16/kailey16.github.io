@@ -5,23 +5,33 @@
 }
 
 #projectCon {
-  width: 100vw;
-  height: auto;
-  padding: 10vh 5vw 0 5vw;
+  padding: 5vh 5vw 5vh 5vw;
   display: grid;
   grid-template-columns: 43vw 43vw;
   grid-column-gap: 4vw;
-  grid-template-rows: 50vh 50vh;
-  grid-row-gap: 5vh;
+  grid-template-rows: 60vh 60vh;
+  grid-row-gap: 8vh;
 }
 
 .preview {
   text-align: center;
   width: 43vw;
   height: auto;
+  background-color: #9a175033;
+  border-radius: 10%;
 }
 
 .previewImg {
   width: 40vw;
   height: auto;
+}
+
+.previewTitle {
+  width: 15vw;
+  margin-left: 14vw;
+  font-size: 1.7vw;
+  font-weight: 500;
+  margin-top: 1vh;
+  color: #9a1750;
+  background-color: #17e9e0;
 }

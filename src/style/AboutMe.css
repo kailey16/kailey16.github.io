@@ -2,12 +2,12 @@
   background-color: #660033;
   color: #f38ba5;
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
   z-index: -1;
 
   display: grid;
   grid-template-columns: 80vw 20vw;
-  grid-template-rows: 5vh 95vh;
+  grid-template-rows: 5vh 90vh;
   grid-template-areas:
     "nav nav"
     "bio icons";
@@ -17,7 +17,7 @@
   grid-area: bio;
   width: 70vw;
   height: auto;
-  margin: 13vh 0 0 8vw;
+  margin: 5vh 0 0 8vw;
   font-size: 1.7vw;
   font-weight: 500;
 }
@@ -68,7 +68,7 @@
 .aboutmeIcons {
   grid-area: icons;
   justify-self: start;
-  padding: 20vh 0 0 4vw;
+  padding: 12vh 0 0 4vw;
   text-align: center;
 }
 

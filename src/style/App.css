@@ -36,12 +36,11 @@ body {
   padding-top: 0.5vh;
   width: 100vw;
   text-align: center;
-  background-color: #f8f3e4;
+  background-color: #e3e2df;
 }
 
 .navOption {
   font-weight: 600;
   font-size: 1.5vw;
   padding: 0 1vw 0 1vw;
-  color: #660033;
 }
