@@ -9,8 +9,8 @@ const Project = () => {
       <Navbar color="#660033" />
       <div id="projectCon">
         <Preview title="SpaceVoyager" src={require('../media/SpaceVoyager/SVmain.png')} />
-        <Preview title="Movie Hangout" src={require('../media/SpaceVoyager/SVmain.png')} />
-        <Preview title="Floof Finder" src={require('../media/SpaceVoyager/SVmain.png')} />
+        <Preview title="Movie Hangout" src={require('../media/MovieHangout/MHmain.png')} />
+        <Preview title="Floof Finder" src={require('../media/FloofFinder/FF1.png')} />
       </div>
     </div>
   )
