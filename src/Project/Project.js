@@ -7,9 +7,11 @@ const Project = () => {
   return (
     <div id="project">
       <Navbar color="#660033" />
-      <Preview title="SpaceVoyager" src={require('../media/SpaceVoyager/SVmain.png')} />
-      <Preview title="Movie Hangout" src="" />
-      <Preview title="Floof Finder" src="" />
+      <div id="projectCon">
+        <Preview title="SpaceVoyager" src={require('../media/SpaceVoyager/SVmain.png')} />
+        <Preview title="Movie Hangout" src={require('../media/SpaceVoyager/SVmain.png')} />
+        <Preview title="Floof Finder" src={require('../media/SpaceVoyager/SVmain.png')} />
+      </div>
     </div>
   )
 }
