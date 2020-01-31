@@ -1,11 +1,9 @@
 import React from 'react'
 import '../style/AboutMe.css'
-import Navbar from '../Navbar'
 
 const AboutMe = () => {
   return (
     <div id="aboutme">
-      <Navbar color="#e3e2df"/>
       <div className="bio">
         <p className="bioName">{`{`}</p>
         <p className="bioLine bioName">

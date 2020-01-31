@@ -2,16 +2,17 @@
   background-color: #e3e2df;
   width: 100vw;
   height: auto;
-  position: fixed;
 }
 
 #projectCon {
-  margin: 10vh 5vw 0 5vw;
+  width: 100vw;
+  height: auto;
+  padding: 10vh 5vw 0 5vw;
   display: grid;
   grid-template-columns: 43vw 43vw;
   grid-column-gap: 4vw;
-  grid-template-areas:
-    "prj prj";
+  grid-template-rows: 50vh 50vh;
+  grid-row-gap: 5vh;
 }
 
 .preview {

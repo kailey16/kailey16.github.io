@@ -3,12 +3,13 @@
   color: #f38ba5;
   width: 100vw;
   height: 100vh;
-  position: fixed;
   z-index: -1;
 
   display: grid;
   grid-template-columns: 80vw 20vw;
+  grid-template-rows: 5vh 95vh;
   grid-template-areas:
+    "nav nav"
     "bio icons";
 }
 
