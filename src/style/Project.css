@@ -17,8 +17,9 @@
   text-align: center;
   width: 43vw;
   height: auto;
-  background-color: #9a175033;
-  border-radius: 10%;
+  /* background-color: #9a175033; */
+  background-image: linear-gradient(to bottom right, #e3e2df, #9a175033);
+  border-radius: 2%;
 }
 
 .previewImg {
@@ -30,8 +31,9 @@
   width: 15vw;
   margin-left: 14vw;
   font-size: 1.7vw;
-  font-weight: 500;
+  font-weight: 700;
   margin-top: 1vh;
   color: #9a1750;
-  background-color: #17e9e0;
+  background-color: #17e9dfaf;
+  border-radius: 30%;
 }
