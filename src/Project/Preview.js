@@ -6,7 +6,7 @@ const Preview = (props) => {
     <div className="preview">
       <p className="previewTitle">{props.title}</p>
 
-      <Link to={`/project/${props.id}`}>
+      <Link to={`/project/${props.title.split(" ").join("").toLowerCase()}`}>
         <img className="previewImg" src={props.src} alt="previewImg" />
       </Link>
 
