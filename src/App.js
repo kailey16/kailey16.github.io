@@ -5,6 +5,7 @@ import Navbar from './Navbar'
 import Home from './Home/Home'
 import AboutMe from './AboutMe/AboutMe'
 import Project from './Project/Project'
+import ProjectView from './Project/ProjectView'
 import Blog from './Blog/Blog'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route exact path='/' component={Home} />
       <Route exact path='/aboutme' component={AboutMe} />
       <Route exact path='/project' component={Project} />
+      <Route exact path='/project/:id' component={ProjectView} />
       <Route exact path='/blog' component={Blog} />
 
     </div>
