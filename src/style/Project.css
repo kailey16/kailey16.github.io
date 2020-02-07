@@ -10,14 +10,13 @@
   grid-template-columns: 43vw 43vw;
   grid-column-gap: 4vw;
   grid-template-rows: 60vh 60vh;
-  grid-row-gap: 8vh;
+  /* grid-row-gap: 2vh; */
 }
 
 .preview {
   text-align: center;
   width: 43vw;
-  height: auto;
-  /* background-color: #9a175033; */
+  height: 56vh;
   background-image: linear-gradient(to bottom right, #e3e2df, #9a175033);
   border-radius: 2%;
 }
