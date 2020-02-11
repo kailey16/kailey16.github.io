@@ -1,8 +1,9 @@
 import React from 'react'
+import '../style/SV.css'
 
 const SpaceVoyager = () => {
   return(
-    <div>
+    <div id="SpaceVoyager">
       SpaceVoyager
     </div>
   )
