@@ -5,34 +5,30 @@
 }
 
 #projectCon {
-  padding: 5vh 5vw 5vh 5vw;
+  padding: 5vh 0 5vh 0;
   display: grid;
-  grid-template-columns: 43vw 43vw;
-  grid-column-gap: 4vw;
-  grid-template-rows: 60vh 60vh;
+  grid-template-columns: 33vw 34vw 33vw;
+  /* grid-column-gap: 4vw; */
+  grid-template-rows: 95vh;
   /* grid-row-gap: 2vh; */
 }
 
 .preview {
   text-align: center;
-  width: 43vw;
-  height: 56vh;
+  width: 33vw;
+  height: 50vh;
   background-image: linear-gradient(to bottom right, #e3e2df, #9a175033);
   border-radius: 2%;
 }
 
 .previewImg {
-  width: 40vw;
+  width: 30vw;
   height: auto;
 }
 
 .previewTitle {
-  width: 15vw;
-  margin-left: 14vw;
   font-size: 1.7vw;
   font-weight: 700;
   margin-top: 1vh;
   color: #9a1750;
-  background-color: #17e9dfaf;
-  border-radius: 30%;
 }
