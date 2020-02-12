@@ -7,11 +7,10 @@ const SpaceVoyager = () => {
     <div className="projectShow">
       <div className="projectTitle">SpaceVoyager</div>
       <div className="projectDetail">
-        SpaceVoyager is a fun exploring single page web application where you can browse media from the NASA library and photos from the Mars rover Curiosity's cameras. You can check out the weather in Mars for the past week and NASA's astronomy picture of the day as well!
+        Fun exploring single page web application where you can browse media from the NASA library and photos from the Mars rover Curiosity's cameras. You can check out the weather in Mars for the past week and NASA's astronomy picture of the day!
       </div>
 
-      <video className="demoVideo" controls src={SVdemo} />
-
+      {/* Image Carousel */}
       <div id="carouselExampleIndicators" class="carousel slide projectCarousel" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -46,6 +45,24 @@ const SpaceVoyager = () => {
           <span class="sr-only">Next</span>
         </a>
       </div>
+
+      <video className="demoVideo" controls src={SVdemo} />
+
+      <div className="frontbackDetail">
+          <div>
+            <div>Backend</div>
+            <i className="fas fa-caret-right"/> Ruby on Rails, PostgreSQL, RESTful API, MVC pattern<br/>
+            <i className="fas fa-caret-right"/> Full validations and authentication with Bcrypt ruby gem and JWT token<br/>
+            <i className="fas fa-caret-right"/> Dynamically communicating with multiple NASA APIs by fetching with Restclient gem
+          </div>
+          <div>
+            <div>Frontend</div>
+            <i className="fas fa-caret-right"/> Javascript, React, Redux<br/>
+            <i className="fas fa-caret-right"/> Custom CSS + Semantic UI framework
+          </div>
+        </div>
+
+
     </div>
   )
 }

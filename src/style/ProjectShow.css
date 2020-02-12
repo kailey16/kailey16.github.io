@@ -2,21 +2,33 @@
   background-color: #660033;
   width: 100vw;
   height: auto;
-  padding: 5vh 5vw 5vh 5vw;
+  padding: 5vh 10vw 5vh 10vw;
+  color: #e3e2df;
+  text-align: center;
+  font-family: 'Changa', sans-serif;
+  /* font-family: 'Monda', sans-serif; */
 }
 
 .projectTitle {
+  font-family: 'Bungee Shade', cursive;
   font-size: 2vw;
   font-weight: 600;
   color: #17e9e0;
 }
 
 .projectDetail {
-  width: 80vw;
+  width: 60vw;
   font-size: 1.5vw;
-  font-weight: 500;
-  color: #e3e2df;
+  font-weight: 400;
+  margin: 1vh 0 2vh 10vw;
   line-height: 1;
+}
+
+.frontbackDetail {
+  display: grid;
+  grid-template-columns: 38vw 38vw;
+  grid-column-gap: 4vw;
+  margin-top: 2vh;
 }
 
 .demoVideo {
@@ -26,4 +38,5 @@
 
 .projectCarousel {
   width: 60vw;
+  margin-left: 10vw;
 }
