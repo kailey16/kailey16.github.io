@@ -63,7 +63,7 @@ const SpaceVoyager = () => {
 
             <i className="fas fa-caret-right arrowIcon"/> Ruby on Rails<br/>
             <i className="fas fa-caret-right arrowIcon"/> PostgreSQL<br/>
-            <i className="fas fa-caret-right arrowIcon"/> RESTful API, MVC pattern<br/>
+            <i className="fas fa-caret-right arrowIcon"/> RESTful API + MVC pattern<br/>
             <i className="fas fa-caret-right arrowIcon"/> Full validations and authentication with Bcrypt ruby gem and JWT token<br/>
             <i className="fas fa-caret-right arrowIcon"/> Dynamically communicating with multiple NASA APIs by fetching with Restclient gem
           </div>
@@ -76,7 +76,7 @@ const SpaceVoyager = () => {
               </span>
             </div>
 
-            <i className="fas fa-caret-right arrowIcon"/> Javascript, React, Redux<br/>
+            <i className="fas fa-caret-right arrowIcon"/> Javascript + React + Redux<br/>
             <i className="fas fa-caret-right arrowIcon"/> Custom CSS + Semantic UI framework
           </div>
         </div>
