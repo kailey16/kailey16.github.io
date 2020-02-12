@@ -77,7 +77,8 @@ const SpaceVoyager = () => {
             </div>
 
             <i className="fas fa-caret-right arrowIcon"/> Javascript + React + Redux<br/>
-            <i className="fas fa-caret-right arrowIcon"/> Custom CSS + Semantic UI framework
+            <i className="fas fa-caret-right arrowIcon"/> Custom CSS + Semantic UI framework<br/>
+            <i className="fas fa-caret-right arrowIcon"/> Including search and filter functions: search by keyword, filter media by camera type
           </div>
         </div>
 

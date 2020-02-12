@@ -1,5 +1,5 @@
 import React from 'react'
-// import MHdemo from '../media/MovieHangout/MHdemo.mp4'
+import MHdemo from '../media/MovieHangout/MHdemo.mp4'
 
 const MovieHangout = () => {
   return(
@@ -80,7 +80,7 @@ const MovieHangout = () => {
 
       <div className="demo">
           <div className="demoTitle">DEMO Video</div>
-          {/* <video className="demoVideo" controls src={SVdemo} /> */}
+          <video className="demoVideo" controls src={MHdemo} />
       </div>
 
     </div>
