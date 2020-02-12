@@ -10,7 +10,7 @@
 
 .projectTitle {
   font-family: 'Bungee Shade', cursive;
-  font-size: 2vw;
+  font-size: 2.2vw;
   font-weight: 600;
   margin-left: 7vw;
   color: #17e9e0;
@@ -37,18 +37,28 @@
   display: grid;
   grid-template-columns: 33vw 33vw;
   grid-column-gap: 4vw;
-  margin: 3vh 0 2vh 7vw;
-  line-height: 1.1;
+  margin: 3vh 0 5vh 7vw;
+  line-height: 1.2;
 }
 
 .endTitle {
   color: rgb(255, 106, 6);
   background-color: #17e9e0;
-  width: 9vw;
+  width: 10.5vw;
   font-weight: 600;
   font-size: 1.7vw;
-  padding-left: 1vw;
+  padding: 0.5vh 0 0.5vh 1vw;
   margin-bottom: 0.5vh;
+}
+
+.showIcon {
+  color: #660033;
+  display: inline;
+  margin-left: 0.5vw;
+}
+
+.showIcon:hover, .showIcon:active {
+  font-size: 2vw;
 }
 
 .arrowIcon {
@@ -67,7 +77,7 @@
   font-weight: 600;
   font-size: 1.7vw;
   padding-left: 1vw;
-  margin-bottom: 0.5vh;
+  margin-bottom: 1vh;
 }
 
 .demoVideo {

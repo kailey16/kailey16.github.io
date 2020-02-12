@@ -6,6 +6,7 @@ const SpaceVoyager = () => {
   return(
     <div className="projectShow">
       <div className="projectTitle">SpaceVoyager</div>
+
       <div className="projectDetail">
         Fun exploring single page web application where you can browse media from the NASA library and photos from the Mars rover Curiosity's cameras. You can check out the weather in Mars for the past week and NASA's astronomy picture of the day!
       </div>
@@ -52,13 +53,29 @@ const SpaceVoyager = () => {
 
       <div className="frontbackDetail">
           <div>
-            <div className="endTitle">Backend</div>
-            <i className="fas fa-caret-right arrowIcon"/> Ruby on Rails, PostgreSQL, RESTful API, MVC pattern<br/>
+            <div className="endTitle">Backend
+              <span>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kailey16/spacevoyager-backend">
+                <i className="fab fa-github showIcon" />
+                </a>
+              </span>
+            </div>
+
+            <i className="fas fa-caret-right arrowIcon"/> Ruby on Rails<br/>
+            <i className="fas fa-caret-right arrowIcon"/> PostgreSQL<br/>
+            <i className="fas fa-caret-right arrowIcon"/> RESTful API, MVC pattern<br/>
             <i className="fas fa-caret-right arrowIcon"/> Full validations and authentication with Bcrypt ruby gem and JWT token<br/>
             <i className="fas fa-caret-right arrowIcon"/> Dynamically communicating with multiple NASA APIs by fetching with Restclient gem
           </div>
           <div>
-            <div className="endTitle">Frontend</div>
+            <div className="endTitle">Frontend
+              <span>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kailey16/spacevoyager-frontend">
+                <i className="fab fa-github showIcon" />
+                </a>
+              </span>
+            </div>
+
             <i className="fas fa-caret-right arrowIcon"/> Javascript, React, Redux<br/>
             <i className="fas fa-caret-right arrowIcon"/> Custom CSS + Semantic UI framework
           </div>
