@@ -1,17 +1,29 @@
 #SpaceVoyager {
   background-color: #660033;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   padding: 5vh 5vw 5vh 5vw;
 }
 
 #SVtitle {
   font-size: 2vw;
   font-weight: 600;
-  color: rgb(255, 106, 6);
+  color: #17e9e0;
+}
+
+#SVdetail {
+  width: 80vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #e3e2df;
+  line-height: 1;
 }
 
 #SVdemo {
   width: 50vw;
   height: auto;
+}
+
+.SVcarousel {
+  width: 60vw;
 }
