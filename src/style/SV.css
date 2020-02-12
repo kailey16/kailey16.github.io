@@ -1,5 +1,17 @@
 #SpaceVoyager {
-  background-color: #9a1750;
+  background-color: #660033;
   width: 100vw;
   height: 100vh;
+  padding: 5vh 5vw 5vh 5vw;
+}
+
+#SVtitle {
+  font-size: 2vw;
+  font-weight: 600;
+  color: rgb(255, 106, 6);
+}
+
+#SVdemo {
+  width: 50vw;
+  height: auto;
 }
