@@ -1,9 +1,10 @@
 import React from 'react'
+import '../style/Blog.css'
 
 const Blog = () => {
-  return (
-    <div>
-      Blog
+  return ( 
+    <div id="blog">
+      
     </div>
   )
 }

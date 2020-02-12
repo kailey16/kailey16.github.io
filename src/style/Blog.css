@@ -1,0 +1,8 @@
+#blog {
+  padding: 5vh 5vw 5vh 5vw;
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
+  /* grid-column-gap: 2vw; */
+  /* grid-template-rows: 60vh 60vh; */
+  /* grid-row-gap: 2vh; */
+}
