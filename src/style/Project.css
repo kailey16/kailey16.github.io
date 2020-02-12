@@ -1,5 +1,5 @@
 #project {
-  background-color: #e3e2df;
+  background-color: #660033;
   width: 100vw;
   height: auto;
 }
@@ -17,7 +17,7 @@
   text-align: center;
   width: 43vw;
   height: 56vh;
-  background-image: linear-gradient(to bottom right, #e3e2df, #9a175033);
+  background-image: linear-gradient(to bottom right, #e3e2df, #9a1750);
   border-radius: 2%;
 }
 
@@ -33,6 +33,6 @@
   font-weight: 700;
   margin-top: 1vh;
   color: #9a1750;
-  background-color: #17e9dfaf;
-  border-radius: 30%;
+  /* background-color: #17e9dfaf; */
+  /* border-radius: 30%; */
 }
