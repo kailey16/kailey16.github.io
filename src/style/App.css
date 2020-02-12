@@ -28,20 +28,25 @@
 
 body {
   font-family: 'Cabin', sans-serif;
+  background-color: #660033;
 }
 
 /* NAVBAR */
 #navbar {
-  height: 5vh;
-  padding-top: 0.5vh;
+  height: 6vh;
   width: 100vw;
-  text-align: center;
-  background-color: #660033;
+  background-color: #660033 !important;
+  font-weight: 500;
+  font-size: 1.3vw;
+}
+
+#homeTitle {
+  font-family: 'Bungee Shade', cursive;
+  color: rgb(255, 106, 6);
+  font-size: 1.7vw;
 }
 
 .navOption {
-  font-weight: 400;
-  font-size: 1.5vw;
-  padding: 0 1vw 0 1vw;
-  color: #e3e2df !important;
+  color: #17e9e0 !important;
+  font-family: 'Changa', sans-serif;
 }

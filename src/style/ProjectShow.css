@@ -1,11 +1,9 @@
 .projectShow {
-  background-color: #660033;
   width: 100vw;
   height: auto;
   padding: 5vh 8vw 5vh 8vw;
   color: #e3e2df;
   font-family: 'Changa', sans-serif;
-  /* font-family: 'Monda', sans-serif; */
 }
 
 .projectTitle {
