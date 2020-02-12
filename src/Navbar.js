@@ -3,12 +3,18 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div id="navbar" className="nav justify-content-center">
-      <Link className="navOption nav-link" to="/" style={{color: "#660033"}}>HOME</Link>
-      <Link className="navOption nav-link" to="/aboutme" style={{color: "#660033"}}>ABOUT</Link>
-      <Link className="navOption nav-link" to="/project" style={{color: "#660033"}}>PROJECT</Link>
-      <Link className="navOption nav-link" to="/blog" style={{color: "#660033"}}>BLOG</Link>
-    </div>
+    <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a id="homeTitle" className="navbar-brand" href="/">K.Lee</a>
+        </div>
+        <div className="nav navbar-nav navbar-right">
+          <Link className="navOption nav-item nav-link active" to="/aboutme">About</Link>
+          <Link className="navOption nav-item nav-link active" to="/project">Project</Link>
+          <Link className="navOption nav-item nav-link active" to="/blog">Blog</Link>
+        </div>
+      </div>
+    </nav>
   )
 }
 
