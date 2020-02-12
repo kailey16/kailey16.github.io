@@ -5,24 +5,24 @@
 }
 
 #projectCon {
-  padding: 5vh 5vw 5vh 5vw;
+  padding: 5vh 3vw 5vh 3vw;
   display: grid;
-  grid-template-columns: 43vw 43vw;
-  grid-column-gap: 4vw;
+  grid-template-columns: 46vw 46vw;
+  grid-column-gap: 2vw;
   grid-template-rows: 60vh 60vh;
-  /* grid-row-gap: 2vh; */
+  grid-row-gap: 2vh;
 }
 
 .preview {
   text-align: center;
-  width: 43vw;
-  height: 56vh;
+  width: 46vw;
+  height: auto;
   /* background-image: linear-gradient(to bottom right, #e3e2df, #9a1750); */
   border-radius: 2%;
 }
 
 .previewImg {
-  width: 41vw;
+  width: 44vw;
   height: auto;
   padding: 1vw;
   background-color: #e3afbc;
