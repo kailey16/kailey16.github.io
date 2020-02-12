@@ -17,22 +17,21 @@
   text-align: center;
   width: 43vw;
   height: 56vh;
-  background-image: linear-gradient(to bottom right, #e3e2df, #9a1750);
+  /* background-image: linear-gradient(to bottom right, #e3e2df, #9a1750); */
   border-radius: 2%;
 }
 
 .previewImg {
-  width: 40vw;
+  width: 41vw;
   height: auto;
+  padding: 1vw;
+  background-color: #e3afbc;
+  border-radius: 3%;
 }
 
 .previewTitle {
-  width: 15vw;
-  margin-left: 14vw;
   font-size: 1.7vw;
-  font-weight: 700;
-  margin-top: 1vh;
-  color: #9a1750;
-  /* background-color: #17e9dfaf; */
-  /* border-radius: 30%; */
+  font-weight: 600;
+  margin: 0 0 0.7vh 0;
+  color:#e3afbc;
 }

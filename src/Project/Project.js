@@ -6,9 +6,9 @@ const Project = () => {
   return (
     <div id="project">
       <div id="projectCon">
-        <Preview title="Space Voyager" src={require('../media/SpaceVoyager/SVmain.png')} />
-        <Preview title="Movie Hangout" src={require('../media/MovieHangout/MHmain.png')} />
-        <Preview title="Floof Finder" src={require('../media/FloofFinder/FF1.png')} />
+        <Preview title="SPACE VOYAGER" src={require('../media/SpaceVoyager/SVmain.png')} />
+        <Preview title="MOVIE HANGOUT" src={require('../media/MovieHangout/MHmain.png')} />
+        <Preview title="FLOOF FINDER" src={require('../media/FloofFinder/FF1.png')} />
       </div>
     </div>
   )
