@@ -1,18 +1,18 @@
 import React from 'react'
-import '../style/SV.css'
+import '../style/ProjectShow.css'
 import SVdemo from '../media/SpaceVoyager/SVdemo.mp4'
 
 const SpaceVoyager = () => {
   return(
-    <div id="SpaceVoyager">
-      <div id="SVtitle">SpaceVoyager</div>
-      <div id="SVdetail">
+    <div className="projectShow">
+      <div className="projectTitle">SpaceVoyager</div>
+      <div className="projectDetail">
         SpaceVoyager is a fun exploring single page web application where you can browse media from the NASA library and photos from the Mars rover Curiosity's cameras. You can check out the weather in Mars for the past week and NASA's astronomy picture of the day as well!
       </div>
 
-      <video id='SVdemo' controls src={SVdemo} />
+      <video className="demoVideo" controls src={SVdemo} />
 
-      <div id="carouselExampleIndicators" class="carousel slide SVcarousel" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide projectCarousel" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
