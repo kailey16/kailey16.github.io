@@ -13,7 +13,7 @@ const AboutMe = () => {
           <span className="colorYellow bioStatus">Who is she?</span> &nbsp; : &nbsp;Kailey Lee is a junior software engineer specializing in Ruby on Rails and Javascript accompanying React and Redux ,
         </p>
         <p className="bioLine bioDetail">
-          <span className="colorYellow bioStatus">Background?</span>&nbsp; : &nbsp;Her educational background is in Chemical Engineering and Business(MBA). She has experience working in Retail Operation Management focusing on client satisfaction and business partner relations coupled with event planning and management. She truly loves problem solving and developing logical thought process, so she decided to change her career to software engineering ,
+          <span className="colorYellow bioStatus">Background?</span>&nbsp; : &nbsp;Her educational background is in Chemical Engineering and Business(MBA). She has experience working in Retail Operation Management focusing on client satisfaction and business partner relations coupled with event planning / management. She truly loves problem solving and developing logical thought process, so she decided to change her career to software engineering ,
         </p>
         <p className="bioLine skillDetail">
           <span className="colorYellow bioStatus">Technical Skills</span>&nbsp; : &nbsp;[ &nbsp;&nbsp;<span className="colorYellow">Ruby on Rails</span> , <span className="colorYellow">Javascript</span> , <span className="colorYellow">React.js</span> , <span className="colorYellow">Redux.js</span> ,<br/>
