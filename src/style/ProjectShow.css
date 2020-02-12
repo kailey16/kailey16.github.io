@@ -2,9 +2,8 @@
   background-color: #660033;
   width: 100vw;
   height: auto;
-  padding: 5vh 10vw 5vh 10vw;
+  padding: 5vh 8vw 5vh 8vw;
   color: #e3e2df;
-  text-align: center;
   font-family: 'Changa', sans-serif;
   /* font-family: 'Monda', sans-serif; */
 }
@@ -13,30 +12,65 @@
   font-family: 'Bungee Shade', cursive;
   font-size: 2vw;
   font-weight: 600;
+  margin-left: 7vw;
   color: #17e9e0;
 }
 
 .projectDetail {
-  width: 60vw;
+  width: 70vw;
   font-size: 1.5vw;
   font-weight: 400;
-  margin: 1vh 0 2vh 10vw;
+  margin: 1vh 0 2vh 7vw;
   line-height: 1;
 }
 
+.projectCarousel {
+  width: 70vw;
+  margin-left: 7vw;
+}
+
 .frontbackDetail {
+  width: 70vw;
+  font-size: 1.5vw;
+  font-weight: 400;
+  text-align: start;
   display: grid;
-  grid-template-columns: 38vw 38vw;
+  grid-template-columns: 33vw 33vw;
   grid-column-gap: 4vw;
-  margin-top: 2vh;
+  margin: 3vh 0 2vh 7vw;
+  line-height: 1.1;
+}
+
+.endTitle {
+  color: rgb(255, 106, 6);
+  background-color: #17e9e0;
+  width: 9vw;
+  font-weight: 600;
+  font-size: 1.7vw;
+  padding-left: 1vw;
+  margin-bottom: 0.5vh;
+}
+
+.arrowIcon {
+  color: rgb(255, 106, 6);
+}
+
+.demo {
+  width: 70vw;
+  margin-left: 7vw;
+}
+
+.demoTitle {
+  color: rgb(255, 106, 6);
+  background-color: #17e9e0;
+  width: 11vw;
+  font-weight: 600;
+  font-size: 1.7vw;
+  padding-left: 1vw;
+  margin-bottom: 0.5vh;
 }
 
 .demoVideo {
   width: 50vw;
   height: auto;
-}
-
-.projectCarousel {
-  width: 60vw;
-  margin-left: 10vw;
 }

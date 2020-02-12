@@ -18,9 +18,13 @@ const SpaceVoyager = () => {
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <img src={require('../media/SpaceVoyager/SVmain.png')} class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
             <img src={require('../media/SpaceVoyager/SVlib.png')} class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
@@ -46,23 +50,24 @@ const SpaceVoyager = () => {
         </a>
       </div>
 
-      <video className="demoVideo" controls src={SVdemo} />
-
       <div className="frontbackDetail">
           <div>
-            <div>Backend</div>
-            <i className="fas fa-caret-right"/> Ruby on Rails, PostgreSQL, RESTful API, MVC pattern<br/>
-            <i className="fas fa-caret-right"/> Full validations and authentication with Bcrypt ruby gem and JWT token<br/>
-            <i className="fas fa-caret-right"/> Dynamically communicating with multiple NASA APIs by fetching with Restclient gem
+            <div className="endTitle">Backend</div>
+            <i className="fas fa-caret-right arrowIcon"/> Ruby on Rails, PostgreSQL, RESTful API, MVC pattern<br/>
+            <i className="fas fa-caret-right arrowIcon"/> Full validations and authentication with Bcrypt ruby gem and JWT token<br/>
+            <i className="fas fa-caret-right arrowIcon"/> Dynamically communicating with multiple NASA APIs by fetching with Restclient gem
           </div>
           <div>
-            <div>Frontend</div>
-            <i className="fas fa-caret-right"/> Javascript, React, Redux<br/>
-            <i className="fas fa-caret-right"/> Custom CSS + Semantic UI framework
+            <div className="endTitle">Frontend</div>
+            <i className="fas fa-caret-right arrowIcon"/> Javascript, React, Redux<br/>
+            <i className="fas fa-caret-right arrowIcon"/> Custom CSS + Semantic UI framework
           </div>
         </div>
 
-
+        <div className="demo">
+          <div className="demoTitle">DEMO Video</div>
+          <video className="demoVideo" controls src={SVdemo} />
+        </div>
     </div>
   )
 }
