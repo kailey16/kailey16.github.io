@@ -26,8 +26,8 @@ const AboutMe = () => {
 
       <div className="aboutmeIcons">
         <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1SbjTS29VEL5foaeoAJDQ4nFTkxRkUs5z/view?usp=sharing">
-            <i class="fas fa-file aboutmeIcon"></i><br/>
-            <p className="resume">Resume</p>
+          <i class="far fa-file-pdf aboutmeIcon" /><br/>
+          <p className="resume">RESUME</p>
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/kailey16">
           <i className="fab fa-github aboutmeIcon" />

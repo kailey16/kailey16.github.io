@@ -6,6 +6,7 @@
 }
 
 #homeText {
+  font-family: 'Cabin', sans-serif;
   padding: 38vh 0 0 3vw;
   z-index: 1;
   font-weight: 700;
