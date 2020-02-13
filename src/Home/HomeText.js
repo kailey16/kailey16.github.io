@@ -10,9 +10,9 @@ const HomeText = () => {
       </div>
 
       <div className="mainIcons">
-        <a href="/aboutme">
+        <Link to="/aboutme">
           <i className="fas fa-info-circle mainIcon" />
-        </a>
+        </Link>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/kailey16">
           <i className="fab fa-github mainIcon" />
         </a>

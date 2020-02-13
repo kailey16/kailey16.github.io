@@ -1,6 +1,6 @@
 import React from 'react';
 import './style/App.css';
-import { Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Navbar from './Navbar'
 import Home from './Home/Home'
 import AboutMe from './AboutMe/AboutMe'
@@ -12,6 +12,7 @@ import Blog from './Blog/Blog'
 
 function App() {
   return (
+    <HashRouter basename='/'>
     <div id="app">
       <Navbar />
       <Route exact path='/' component={Home} />
@@ -23,8 +24,8 @@ function App() {
       <Route exact path='/project/flooffinder' component={FloofFinder} />
 
       <Route exact path='/blog' component={Blog} />
-
     </div>
+    </HashRouter>
   );
 }
 
