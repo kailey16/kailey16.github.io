@@ -36,3 +36,16 @@
 .mainIcon:hover, .mainIcon:active {
   font-size: 3.5vw;
 }
+
+
+@media only screen and (max-width: 450px) {
+  #homeVideo {
+    display: none;
+  }
+
+  #homeText {
+    color: #e3e2df;
+    padding: 30vh 0 0 2vw;
+    font-size: 3.5vh;
+  }
+}

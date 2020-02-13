@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Armata|Cabin|Changa|Gloria+Hallelujah|Kanit|Karla|Monda&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree|Be+Vietnam|Bungee+Inline|Bungee+Shade|Finger+Paint|Sulphur+Point&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap');
   /* font-family: 'Karla', sans-serif; */
   /* font-family: 'Kanit', sans-serif; */
   /* font-family: 'Monda', sans-serif; */
@@ -13,8 +14,6 @@
   /* font-family: 'Be Vietnam', sans-serif; */
   /* font-family: 'Bungee Shade', cursive; */
 
-@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap');
-
 /* Colors
   wine: #660033
   orange: #FF8B06
@@ -26,11 +25,12 @@
   dark-pink: #9a1750
  */
 
+
 body {
-  /* font-family: 'Cabin', sans-serif; */
   font-family: 'Changa', sans-serif;
   background-color: #660033;
 }
+
 
 /* NAVBAR */
 #navbar {
@@ -50,4 +50,24 @@ body {
 .navOption {
   color: #17e9e0 !important;
   font-family: 'Changa', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+  #navbar {
+    height: 10vh;
+    width: 100vw;
+    font-size: 5vw;
+  }
+
+  #homeTitle {
+    font-size: 6vw;
+  }
+  
+  .navRight {
+    width: 60vw;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+  }
 }
