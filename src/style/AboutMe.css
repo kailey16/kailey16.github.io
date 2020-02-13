@@ -14,11 +14,7 @@
 
 .bio {
   grid-area: bio;
-  width: 70vw;
-  height: auto;
   margin: 5vh 0 0 8vw;
-  font-size: 1.7vw;
-  font-weight: 500;
 }
 
 .bio p {
@@ -53,20 +49,23 @@
   line-height: 1.2;
 }
 
-.colorYellow {
+.color1 {
   color: #e3e2df;
+}
+.color2 {
+  color: rgb(255, 106, 6);
 }
 
 .skillLine {
   padding-left: 16vw;
 }
 
-
-
 .aboutmeIcons {
   grid-area: icons;
-  justify-self: start;
+  display: grid;
+  grid-template-rows: 13vh 10vh 10vh 50vh;
   padding: 12vh 0 0 4vw;
+  justify-self: start;
   text-align: center;
 }
 
@@ -82,4 +81,60 @@
 .resume {
   font-size: 1vw;
   margin: 0;
+}
+
+
+@media only screen and (max-width: 450px) {
+  #aboutme {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 75vh 15vh;
+    grid-template-areas:
+      "bio"
+      "icons";
+  }
+
+  .bio {
+    margin: 3vh 8vw 0 6vw;
+  }
+
+  .bioName {
+    font-size: 2.8vh;
+  }
+
+  .bioStatus {
+    font-size: 2.5vh;
+  }
+
+  .bioDetail {
+    font-size: 2.2vh;
+    padding: 1vh 0 0 3vw;
+
+  }
+
+  .skillDetail {
+    font-size: 2.2vh;
+    padding: 2vh 0 0 3vw;
+  }
+
+
+  .aboutmeIcons {
+    grid-area: icons;
+    display: grid;
+    grid-template-columns: 17vw 17vw 17vw 17vw;
+    padding: 0 16vw 0 16vw;
+  }
+
+  .aboutmeIcons a {
+    font-size: 5vh;
+  }
+
+  .resume {
+    font-size: 2vh;
+  }
+
+  .skillLine {
+    padding: 0;
+  }
 }
