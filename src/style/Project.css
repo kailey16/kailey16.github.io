@@ -40,3 +40,27 @@
   font-weight: 600;
   margin: 0 0 0.7vh 0;
 }
+
+
+
+@media only screen and (max-width: 450px) {
+  #projectCon {
+    padding: 2vh 3vw 2vh 3vw;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto;
+    grid-row-gap: 3vh;
+  }
+
+  .preview {
+    width: 94vw;
+  }
+
+  .previewImg {
+    width: 80vw;
+  }
+
+  .previewTitle {
+    font-size: 2.5vh;
+  }
+}
