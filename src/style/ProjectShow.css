@@ -54,8 +54,10 @@
   margin-left: 0.5vw;
 }
 
-.showIcon:hover, .showIcon:active {
-  font-size: 2vw;
+@media only screen and (min-width: 1000px) {
+  .showIcon:hover, .showIcon:active {
+    font-size: 2vw;
+  }
 }
 
 .arrowIcon {
@@ -80,4 +82,66 @@
 .demoVideo {
   width: 50vw;
   height: auto;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+  .projectShow {
+    padding: 2vh 3vw 2vh 3vw;
+  }
+
+  .projectTitle {
+    font-size: 3vh;
+    margin-left: 2vw;
+  }
+  
+  .projectDetail {
+    width: 90vw;
+    font-size: 2.5vh;
+    margin-left: 2vw;
+  }
+
+  .projectCarousel {
+    width: 90vw;
+    margin-left: 2vw;
+  }
+
+  .frontbackDetail {
+    width: 90vw;
+    font-size: 2.5vh;
+    display: block;
+    margin: 3vh 0 3vh 2vw;
+  }
+
+  .endTitle {
+    width: 30vw;
+    font-size: 2.7vh;
+    padding: 0.5vh 0 0.5vh 1vw;
+    margin-bottom: 0.5vh;
+  }
+  
+  .showIcon {
+    color: #660033;
+    display: inline;
+    margin-left: 0.5vw;
+  }
+
+  .demo {
+    width: 90vw;
+    margin-left: 2vw;
+  }
+
+  .demoTitle {
+    width: 30vw;
+    font-weight: 600;
+    font-size: 2.7vh;
+    padding-left: 1vw;
+    margin-bottom: 1vh;
+  }
+  
+  .demoVideo {
+    width: 90vw;
+    height: auto;
+  }
 }
