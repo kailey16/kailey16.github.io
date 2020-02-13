@@ -48,4 +48,19 @@
     padding: 30vh 0 0 2vw;
     font-size: 3.5vh;
   }
+
+  .mainIcons {
+    padding: 0;
+    margin-top: 30vh;
+    text-align: center;
+  }
+
+  .mainIcons a {
+    font-size: 6vh;
+    padding: 0 5vw 0 5vw;
+  }
+
+  .mainTitleName {
+    font-size: 4vh;
+  }
 }

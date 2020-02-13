@@ -5,7 +5,7 @@ const HomeText = () => {
     <div id="homeText">
 
       <div className="mainTitle">
-        <p>{`{ 'Junior Developer + logical thinker'`}</p>
+        <p>{`{ ' Junior Developer + logical thinker '`}</p>
         <p className="mainTitleLine2">: ' <span className="mainTitleName">&nbsp;KAILEY LEE&nbsp;</span> ' }</p>
       </div>
 

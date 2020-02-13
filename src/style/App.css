@@ -53,20 +53,20 @@ body {
 }
 
 
-
 @media only screen and (max-width: 450px) {
   #navbar {
     height: 10vh;
     width: 100vw;
-    font-size: 5vw;
+    font-size: 3.5vh;
   }
 
   #homeTitle {
-    font-size: 6vw;
+    font-size: 4vh;
   }
   
   .navRight {
     width: 60vw;
+    text-align: center;
     display: grid;
     grid-template-columns: 20vw 20vw 20vw;
   }
