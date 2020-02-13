@@ -33,9 +33,12 @@
   font-size: 3.1vw;
 }
 
-.mainIcon:hover, .mainIcon:active {
-  font-size: 3.5vw;
+@media only screen and (min-width: 1000px) {
+  .mainIcon:hover, .mainIcon:active {
+    font-size: 3.5vw;
+  }
 }
+
 
 
 @media only screen and (max-width: 450px) {
