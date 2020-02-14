@@ -4,13 +4,13 @@ import '../style/AboutMe.css'
 const AboutMe = () => {
   return (
     <div id="aboutme">
-      <div className="bio animated slideInLeft">
-        <div className="bioName">
+      <div className="bio">
+        <div className="bioName animated slideInDown">
           <span className="color1">Kailey (Kyeonga) Lee</span> : Full Stack Web Developer
         </div>
 
 
-        <div className="bioDetails">
+        <div className="bioDetails animated fadeInLeft delay-1s">
           <div className="bioDetail">
             <div className="color1 bioDetailTitle">
               Who is she?
@@ -41,7 +41,7 @@ const AboutMe = () => {
       </div>
 
 
-      <div className="aboutmeIcons animated fadeIn delay-1s">
+      <div className="aboutmeIcons animated fadeInRight delay-1s">
         <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1SbjTS29VEL5foaeoAJDQ4nFTkxRkUs5z/view?usp=sharing">
           <i className="far fa-file-pdf aboutmeIcon" />
           <p className="resume">RESUME</p>
