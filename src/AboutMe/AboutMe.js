@@ -4,13 +4,13 @@ import '../style/AboutMe.css'
 const AboutMe = () => {
   return (
     <div id="aboutme">
-      <div className="bio">
+      <div className="bio animated slideInLeft">
         <p className="bioName">{`{`}</p>
         <p className="bioLine bioName">
-          <span className="color1">Kailey Lee</span> &nbsp; : &nbsp;Full Stack Web Developer ,
+          <span className="color1">Kailey (Kyeonga) Lee</span> &nbsp; : &nbsp;Full Stack Web Developer ,
         </p>
         <p className="bioLine bioDetail">
-          <span className="color1 bioStatus">Who is she?</span> &nbsp; : &nbsp;Kailey Lee is a junior software engineer specializing in Ruby on Rails and Javascript accompanying React and Redux ,
+          <span className="color1 bioStatus">Who is she?</span> &nbsp; : &nbsp;Kailey (Kyeonga) Lee is a junior software engineer specializing in Ruby on Rails and Javascript accompanying React and Redux ,
         </p>
         <p className="bioLine bioDetail">
           <span className="color1 bioStatus">Background?</span>&nbsp; : &nbsp;Her educational background is in Chemical Engineering and Business(MBA). She has experience working in Retail Operation Management focusing on client satisfaction and business partner relations coupled with event planning / management. She truly loves problem solving and developing logical thought process, so she decided to change her career to software engineering ,
@@ -22,7 +22,7 @@ const AboutMe = () => {
       </div>
 
 
-      <div className="aboutmeIcons">
+      <div className="aboutmeIcons animated fadeIn delay-1s">
         <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1SbjTS29VEL5foaeoAJDQ4nFTkxRkUs5z/view?usp=sharing">
           <i className="far fa-file-pdf aboutmeIcon" />
           <p className="resume">RESUME</p>

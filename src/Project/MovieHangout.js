@@ -4,14 +4,14 @@ import MHdemo from '../media/MovieHangout/MHdemo.mp4'
 const MovieHangout = () => {
   return(
     <div className="projectShow">
-      <div className="projectTitle">MovieHangout</div>
+      <div className="projectTitle animated rotateIn">MovieHangout</div>
 
-      <div className="projectDetail">
+      <div className="projectDetail animated rotateInUpRight">
         Single page web application where you can see details of movies and find the most popular and rated movies at the current moment. You can share your thoughts about the movie by leaving comments and save the movies that you like under your favorite list!
       </div>
 
       {/* Image Carousel */}
-      <div id="carouselExampleIndicators" class="carousel slide projectCarousel" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide projectCarousel animated rotateInUpLeft" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

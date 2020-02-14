@@ -5,14 +5,14 @@ import SVdemo from '../media/SpaceVoyager/SVdemo.mp4'
 const SpaceVoyager = () => {
   return(
     <div className="projectShow">
-      <div className="projectTitle">SpaceVoyager</div>
+      <div className="projectTitle animated bounceInDown">SpaceVoyager</div>
 
-      <div className="projectDetail">
+      <div className="projectDetail animated bounceInRight">
         Fun exploring single page web application where you can browse media from the NASA library and photos from the Mars rover Curiosity's cameras. You can check out the weather in Mars for the past week and NASA's astronomy picture of the day!
       </div>
 
       {/* Image Carousel */}
-      <div id="carouselExampleIndicators" className="carousel slide projectCarousel" data-ride="carousel">
+      <div id="carouselExampleIndicators" className="carousel slide projectCarousel animated bounceInRight" data-ride="carousel">
         <ol className="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

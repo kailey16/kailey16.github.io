@@ -5,12 +5,12 @@ const HomeText = () => {
   return (
     <div id="homeText">
 
-      <div className="mainTitle">
+      <div className="mainTitle animated slideInLeft">
         <p>{`{ ' Junior Developer + logical thinker '`}</p>
         <p className="mainTitleLine2">: ' <span className="mainTitleName">&nbsp;KAILEY LEE&nbsp;</span> ' }</p>
       </div>
 
-      <div className="mainIcons">
+      <div className="mainIcons animated fadeIn delay-1s">
         <Link to="/aboutme">
           <i className="fas fa-info-circle mainIcon" />
         </Link>

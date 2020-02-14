@@ -4,13 +4,13 @@ import FFdemo from '../media/FloofFinder/FFdemo.mp4'
 const FloofFinder = () => {
   return(
     <div className="projectShow">
-      <div className="projectTitle">FloofFinder</div>
-      <div className="projectDetail">
+      <div className="projectTitle animated tada">FloofFinder</div>
+      <div className="projectDetail animated tada">
         Floof Finder is a single page web application to find shelter dogs for adoption and collect their information
       </div>
 
       {/* Image Carousel */}
-      <div id="carouselExampleIndicators" class="carousel slide projectCarousel" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide projectCarousel animated fadeInLeft" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

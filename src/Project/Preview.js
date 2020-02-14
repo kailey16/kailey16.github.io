@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Preview = (props) => {
   return (
-    <div className="preview">
+    <div className="preview animated fadeIn">
       <p className="previewTitle">{props.title}</p>
 
       <Link to={`/project/${props.title.split(" ").join("").toLowerCase()}`}>

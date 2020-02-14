@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogCard = (props) => {
   return ( 
-    <div className="blogcard">
+    <div className="blogcard animated fadeIn">
       <a href={props.site} target="_blank" rel="noopener noreferrer" >
         <img className="blogImg" alt="Blog Preview" src={props.src} />
       </a>
