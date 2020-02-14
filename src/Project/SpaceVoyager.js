@@ -51,7 +51,7 @@ const SpaceVoyager = () => {
         </a>
       </div>
 
-      <div className="frontbackDetail">
+      <div className="frontbackDetail animated fadeInLeft">
           <div>
             <div className="endTitle">Backend
               <span>
