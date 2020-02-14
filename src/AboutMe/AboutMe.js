@@ -5,20 +5,39 @@ const AboutMe = () => {
   return (
     <div id="aboutme">
       <div className="bio animated slideInLeft">
-        <p className="bioName">{`{`}</p>
-        <p className="bioLine bioName">
-          <span className="color1">Kailey (Kyeonga) Lee</span> &nbsp; : &nbsp;Full Stack Web Developer ,
-        </p>
-        <p className="bioLine bioDetail">
-          <span className="color1 bioStatus">Who is she?</span> &nbsp; : &nbsp;Kailey (Kyeonga) Lee is a junior software engineer specializing in Ruby on Rails and Javascript accompanying React and Redux ,
-        </p>
-        <p className="bioLine bioDetail">
-          <span className="color1 bioStatus">Background?</span>&nbsp; : &nbsp;Her educational background is in Chemical Engineering and Business(MBA). She has experience working in Retail Operation Management focusing on client satisfaction and business partner relations coupled with event planning / management. She truly loves problem solving and developing logical thought process, so she decided to change her career to software engineering ,
-        </p>
-        <p className="bioLine skillDetail">
-          <span className="color1 bioStatus">Technical Skills</span>&nbsp; : &nbsp;[ &nbsp;&nbsp;<span className="color2">Ruby on Rails</span> , <span className="color2">Javascript</span> , <span className="color2">React.js</span> , <span className="color2">Redux.js</span> , <span className="color2 skillLine">HTML5</span> , <span className="color2">CSS/Bootstrap/Semantic UI</span> , <span className="color2">SQL/SQLite3/PostgreSQL</span> , <span className="color2 skillLine">RESTful architecture</span> , <span className="color2">MVC pattern</span> , <span className="color2">RSpec</span> , <span className="color2">Git</span> , <span className="color2">APIs</span>&nbsp; ]
-        </p>
-        <p className="bioName">{`}`}</p>
+        <div className="bioName">
+          <span className="color1">Kailey (Kyeonga) Lee</span> : Full Stack Web Developer
+        </div>
+
+
+        <div className="bioDetails">
+          <div className="bioDetail">
+            <div className="color1 bioDetailTitle">
+              Who is she?
+            </div>
+            <div>
+            Junior software engineer specializing in Ruby on Rails and Javascript accompanying React and Redux
+            </div>
+          </div>
+
+          <div className="bioDetail">
+            <div className="color1 bioDetailTitle">
+              Background?
+            </div>
+            <div>
+              Her educational background is in Chemical Engineering and Business(MBA). She has experience working in Retail Operation Management focusing on client satisfaction and business partner relations coupled with event planning / management. She truly loves problem solving and developing logical thought process, so she decided to change her career to software engineering
+            </div>
+          </div>
+
+          <div className="bioDetail">
+            <div className="color1 bioDetailTitle">
+              Technical Skills
+            </div>
+            <div className="color2">
+              Ruby on Rails, Javascript, React.js, Redux.js, HTML5, CSS/Bootstrap/Semantic UI, SQL/SQLite3/PostgreSQL, RESTful architecture, MVC pattern, RSpec, Git, APIs          
+            </div>
+          </div>
+         </div> 
       </div>
 
 
@@ -39,6 +58,8 @@ const AboutMe = () => {
       </div>
 
     </div>
+
+
   )
 }
 

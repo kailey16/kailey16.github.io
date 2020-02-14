@@ -1,76 +1,62 @@
 #aboutme {
   color: #f38ba5;
   width: 100vw;
-  height: 95vh;
-  z-index: -1;
+  height: 94vh;
+  z-index: -1; 
 
   display: grid;
   grid-template-columns: 80vw 20vw;
-  grid-template-rows: 5vh 90vh;
   grid-template-areas:
-    "nav nav"
     "bio icons";
 }
 
 .bio {
   grid-area: bio;
-  margin: 5vh 0 0 8vw;
-}
-
-.bio p {
-  margin: 0;
+  padding: 10vh 0 0 7vw;
 }
 
 .bioName {
   font-size: 2.5vw;
   font-weight: 700;
+  margin-bottom: 4vh;
 }
 
-.bioLine.bioName {
-  padding-left: 3vw;
-}
-
-.bioStatus {
-  font-size: 2vw;
-  font-weight: 600;
+.bioDetails {
+  display: grid;
+  grid-template-columns: 20vw 30vw 20vw;
+  grid-column-gap: 2vw;
 }
 
 .bioDetail {
   font-size: 1.7vw;
-  padding: 3vh 0 0 3vw;
   font-weight: 600;
   line-height: 1.3;
 }
 
-.skillDetail {
-  font-size: 1.6vw;
-  padding: 4vh 0 0 3vw;
-  font-weight: 500;
-  line-height: 1.2;
+.bioDetailTitle {
+  font-size: 2vw;
+  margin-bottom: 1vh;
 }
 
 .color1 {
   color: #e3e2df;
 }
 .color2 {
-  color: rgb(255, 106, 6);
+  color: #17e9e0;
 }
 
-.skillLine {
-  padding-left: 16vw;
-}
 
 .aboutmeIcons {
   grid-area: icons;
   display: grid;
   grid-template-rows: 13vh 10vh 10vh 50vh;
-  padding: 12vh 0 0 4vw;
-  justify-self: start;
+  padding-top: 20vh;
+  justify-self: center;
   text-align: center;
 }
 
 .aboutmeIcons a {
-  color: #17e9e0;
+  color: #e3e2df;
   font-size: 3.1vw;
 }
 
@@ -99,28 +85,26 @@
   }
 
   .bio {
-    margin: 3vh 8vw 0 6vw;
+    padding: 3vh 5vw 0 5vw;
+  }
+
+  .bioDetails {
+    display: block;
   }
 
   .bioName {
     font-size: 2.8vh;
+    margin-bottom: 2vh;
   }
 
-  .bioStatus {
+  .bioDetailTitle {
     font-size: 2.5vh;
+    margin: 1.2vh 0 0 0;
   }
 
   .bioDetail {
     font-size: 2.2vh;
-    padding: 1vh 0 0 3vw;
-
   }
-
-  .skillDetail {
-    font-size: 2.2vh;
-    padding: 2vh 0 0 3vw;
-  }
-
 
   .aboutmeIcons {
     grid-area: icons;
@@ -135,9 +119,5 @@
 
   .resume {
     font-size: 2vh;
-  }
-
-  .skillLine {
-    padding: 0;
   }
 }
