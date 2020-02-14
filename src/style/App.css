@@ -38,13 +38,13 @@ body {
   width: 100vw;
   background-color: #660033 !important;
   font-weight: 500;
-  font-size: 1.3vw;
+  font-size: 1.5vw;
 }
 
 #homeTitle {
   font-family: 'Bungee Shade', cursive;
   color: rgb(255, 106, 6);
-  font-size: 1.7vw;
+  font-size: 1.8vw;
 }
 
 .navOption {
@@ -58,11 +58,11 @@ body {
   #navbar {
     height: 10vh;
     width: 100vw;
-    font-size: 3.5vh;
+    font-size: 6vw;
   }
 
   #homeTitle {
-    font-size: 4vh;
+    font-size: 6.5vw;
   }
   
   .navRight {
