@@ -34,7 +34,12 @@ const AboutMe = () => {
               Technical Skills
             </div>
             <div className="color2">
-              Ruby on Rails, Javascript, React.js, Redux.js, HTML5, CSS/Bootstrap/Semantic UI, SQL/SQLite3/PostgreSQL, RESTful architecture, MVC pattern, RSpec, Git, APIs          
+              <i className="fas fa-check skillIcon"/> Ruby on Rails<br/>
+              <i className="fas fa-check skillIcon"/> Javascript, React.js, Redux.js<br/>
+              <i className="fas fa-check skillIcon"/> HTML5, CSS, Bootstrap, Semantic UI<br/>
+              <i className="fas fa-check skillIcon"/> SQL, SQLite3, PostgreSQL<br/>
+              <i className="fas fa-check skillIcon"/> RESTful architecture, MVC pattern<br/>
+              <i className="fas fa-check skillIcon"/> RSpec, Git, APIs          
             </div>
           </div>
          </div> 
