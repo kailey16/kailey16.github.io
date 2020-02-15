@@ -6,8 +6,8 @@ const HomeText = () => {
     <div id="homeText">
 
       <div className="mainTitle animated slideInLeft">
-        <p>{`{ ' Junior Developer + logical thinker '`}</p>
-        <p className="mainTitleLine2">: ' <span className="mainTitleName">&nbsp;KAILEY LEE&nbsp;</span> ' }</p>
+        <p>{`{ ' Junior Developer + logical thinking '`}</p>
+        <p className="mainTitleLine2">: ' <span className="mainTitleName">KAILEY LEE</span> ' }</p>
       </div>
 
       <div className="mainIcons animated fadeIn delay-1s">
