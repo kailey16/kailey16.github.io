@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/profile-website/static/css/main.f3a62af6.chunk.css",
-    "main.js": "/profile-website/static/js/main.2d68b0ca.chunk.js",
-    "main.js.map": "/profile-website/static/js/main.2d68b0ca.chunk.js.map",
+    "main.css": "/profile-website/static/css/main.007b94d5.chunk.css",
+    "main.js": "/profile-website/static/js/main.9a386687.chunk.js",
+    "main.js.map": "/profile-website/static/js/main.9a386687.chunk.js.map",
     "runtime-main.js": "/profile-website/static/js/runtime-main.af05565b.js",
     "runtime-main.js.map": "/profile-website/static/js/runtime-main.af05565b.js.map",
     "static/js/2.38dbb69a.chunk.js": "/profile-website/static/js/2.38dbb69a.chunk.js",
     "static/js/2.38dbb69a.chunk.js.map": "/profile-website/static/js/2.38dbb69a.chunk.js.map",
     "index.html": "/profile-website/index.html",
-    "precache-manifest.5a06c1e075e2ecc6985b23e8829441ed.js": "/profile-website/precache-manifest.5a06c1e075e2ecc6985b23e8829441ed.js",
+    "precache-manifest.e4dd312a3fd39d2ec8b5f8f06f0d3f50.js": "/profile-website/precache-manifest.e4dd312a3fd39d2ec8b5f8f06f0d3f50.js",
     "service-worker.js": "/profile-website/service-worker.js",
-    "static/css/main.f3a62af6.chunk.css.map": "/profile-website/static/css/main.f3a62af6.chunk.css.map",
+    "static/css/main.007b94d5.chunk.css.map": "/profile-website/static/css/main.007b94d5.chunk.css.map",
     "static/js/2.38dbb69a.chunk.js.LICENSE": "/profile-website/static/js/2.38dbb69a.chunk.js.LICENSE",
     "static/media/FF1.png": "/profile-website/static/media/FF1.1b481193.png",
     "static/media/FF2.png": "/profile-website/static/media/FF2.b8f48110.png",
@@ -33,12 +33,13 @@
     "static/media/blog3.gif": "/profile-website/static/media/blog3.17fa9007.gif",
     "static/media/blog4.gif": "/profile-website/static/media/blog4.5a19de22.gif",
     "static/media/blog5.png": "/profile-website/static/media/blog5.5dd5f299.png",
+    "static/media/blog6.png": "/profile-website/static/media/blog6.aada9dad.png",
     "static/media/mainvideo.mp4": "/profile-website/static/media/mainvideo.1d02c182.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.af05565b.js",
     "static/js/2.38dbb69a.chunk.js",
-    "static/css/main.f3a62af6.chunk.css",
-    "static/js/main.2d68b0ca.chunk.js"
+    "static/css/main.007b94d5.chunk.css",
+    "static/js/main.9a386687.chunk.js"
   ]
 }
