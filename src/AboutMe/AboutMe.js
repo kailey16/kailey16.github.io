@@ -25,7 +25,7 @@ const AboutMe = () => {
               Background?
             </div>
             <div>
-              Her educational background is in Chemical Engineering and Business(MBA). She has experience working in Retail Operation Management focusing on client satisfaction and business partner relations coupled with event planning / management. She truly loves problem solving and developing logical thought process, so she decided to change her career to software engineering
+              Her educational background is in Chemical Engineering and Business(MBA). She has experience working in Retail Operation Management focusing on client satisfaction and business partner relations. She truly loves problem solving and developing logical thought process, so she decided to change her career to software engineering.
             </div>
           </div>
 
@@ -35,7 +35,7 @@ const AboutMe = () => {
             </div>
             <div className="color2">
               <i className="fas fa-check skillIcon"/> Ruby on Rails<br/>
-              <i className="fas fa-check skillIcon"/> Javascript, React.js, Redux.js<br/>
+              <i className="fas fa-check skillIcon"/> Javascript, React, Redux<br/>
               <i className="fas fa-check skillIcon"/> HTML5, CSS, Bootstrap, Semantic UI<br/>
               <i className="fas fa-check skillIcon"/> SQL, SQLite3, PostgreSQL<br/>
               <i className="fas fa-check skillIcon"/> RESTful architecture, MVC pattern<br/>
@@ -47,7 +47,7 @@ const AboutMe = () => {
 
 
       <div className="aboutmeIcons animated fadeInRight delay-1s">
-        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1SbjTS29VEL5foaeoAJDQ4nFTkxRkUs5z/view?usp=sharing">
+        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1qPtIsllNS6WCAlAIQyw27lXfogAZegdh/view?usp=sharing">
           <i className="far fa-file-pdf aboutmeIcon" />
           <p className="resume">RESUME</p>
         </a>
